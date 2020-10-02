@@ -4,36 +4,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SD Clock</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
     <section class="container">
         <div class="line1">
-            <div class="box box-1">BOX</div>
-            <div class="box box-2">BOX</div>
+            <div class="box box-1 far fa-clock"></div>
+            <div class="box box-2">
+                <div class="box-2-ny">
+                    <span class="spanName sn_ny">New York</span>
+                </div>
+                <div id="clockIdDiv-ny" >
+                    <span class="clockId-2" id="hour_ny">00 </span>
+                    <span class="clockId-2" id="minute_ny">00 </span>
+                    <span class="clockId-2" id="time_const_ny"></span>
+                </div>
+            </div>
             <div class="box box-3">designby SD ©2020</div> 
         </div>
         <div class="line2">
-            <div class="box box-4">BOX</div>
+            <div class="box box-4">
+                <div class="box-4-tr">
+                    <span class="spanName sn_tr">Turkey</span>
+                </div>
+                <div id="clockIdDiv-tr" >
+                    <span class="clockId-2" id="hour_tr">00 </span>
+                    <span class="clockId-2" id="minute_tr">00 </span>
+                    <span class="clockId-2" id="time_const_tr"></span>
+                </div>
+            </div>
             <div class="box box-5 myClock">
                 <div>
                     <span class="spanName">OSLO</span>
                 </div>
                 <div id="clockIdDiv" >
-                    <span class="clockId" id="hour">00 </span>: 
-                    <span class="clockId" id="minute">00 </span>: 
+                    <span class="clockId" id="hour">00 </span>
+                    <span class="clockId" id="minute">00 </span>
                     <span class="clockId" id="second">00 </span>
-                    <span class="clockId" id="time-const"></span>
+                </div>
+                <div>
+                    <span class="spanName" id="time_const"></span>
                 </div>
             </div>
-            <div class="box box-6">BOX</div>
+            <div class="box box-6 far fa-hourglass"></div>
         </div>
         <div class="line3">
-            <div class="box box-7">BOX</div>
-            <div class="box box-8">BOX</div>
-            <div class="box box-9">BOX</div>
+            <div class="box box-7">
+                <div class="box-7-tk">
+                    <span class="spanName sn_tk">Tokyo</span>
+                </div>
+                <div id="clockIdDiv-tk" >
+                    <span  class="clockId-2" id="hour_tk">00 </span>
+                    <span  class="clockId-2" id="minute_tk">00 </span>
+                    <span  class="clockId-2" id="time_const_tk"></span>
+                </div>
+            </div>
+            <div class="box box-8 far fa-calendar"></div>
+            <div class="box box-9">
+                <div class="box-9-lnd">
+                    <span class="spanName sn_lnd">London</span>
+                </div>
+                <div id="clockIdDiv-lnd" >
+                    <span  class="clockId-2" id="hour_lnd">00 </span>
+                    <span  class="clockId-2" id="minute_lnd">00 </span>
+                    <span  class="clockId-2" id="time_const_lnd"></span>
+                </div>
+            </div>
         </div>
     </section>
 
     <script src="index.js"></script>
+    <script type="text/javascript" src="http://www.timeapi.org/utc/now.json?callback=myCallback"></script>
 </body>
 </html>

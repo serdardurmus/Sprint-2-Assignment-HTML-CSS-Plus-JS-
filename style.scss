@@ -21,6 +21,16 @@ body {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        .clockId {
+            font-family: digital-7;
+            font-size: 3.5rem;
+            font-weight: 100;
+        }
+        .clockId-2 {
+            font-family: digital-7;
+            font-size: 2.5rem;
+            font-weight: 100;
+        }
         .box {
             border-radius: 10px;
             min-width: 220px;
@@ -35,23 +45,37 @@ body {
             border-style: groove;
             box-shadow: 5px 0px 10px white;
         }
-        .box-1 { background-color: #6b5a55; margin: 30px 15px;}
-        .box-4 { background-color: #92a33c; margin: 30px 15px;}
+        .box-1 { background-color: #6b5a55; margin: 30px 15px; font-size: 100px;}
+        .box-4 { background-color: #92a33c; margin: 30px 15px;
+            span, div {
+                background-color: #92a33c;
+            }
+        }
         .box-3 { background-color: #3dbcc3; margin: 30px 15px;}
-        .box-2 { background-color: #ef7caa; margin: 30px 15px;}
+        .box-2 { 
+            background-color: #ef7caa; 
+            margin: 30px 15px;
+            span, div {
+                background-color: #ef7caa;
+            }
+        }
         .box-5 { 
             background-color: #000000; 
             margin: 30px 15px;
             font-size: 40px;
-            .clockId {
-                font-family: digital-7;
-                font-size: 3.5rem;
-                font-weight: 100;
+
+        }
+        .box-8 { background-color: #6b5a55; margin: 30px 15px; font-size: 100px;}
+        .box-7 { background-color: #3dbcc3; margin: 30px 15px;
+            span, div {
+                background-color: #3dbcc3;
             }
         }
-        .box-8 { background-color: #6b5a55; margin: 30px 15px;}
-        .box-7 { background-color: #3dbcc3; margin: 30px 15px;}
-        .box-6 { background-color: #f05a28; margin: 30px 15px;}
-        .box-9 { background-color: #1d71bd; margin: 30px 15px;}
+        .box-6 { background-color: #f05a28; margin: 30px 15px; font-size: 100px;}
+        .box-9 { background-color: #1d71bd; margin: 30px 15px;
+            span, div {
+                background-color: #1d71bd;
+            }
+        }
     }
 }
