@@ -9,6 +9,7 @@
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    font-size: 20px;
 }
 
 body {
@@ -21,9 +22,9 @@ body {
         align-items: center;
         flex-wrap: wrap;
         .box {
-            border-radius: 5px;
-            min-width: 200px;
-            min-height: 200px;
+            border-radius: 10px;
+            min-width: 220px;
+            min-height: 220px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -32,6 +33,7 @@ body {
         }
         .box:hover {
             border-style: groove;
+            box-shadow: 5px 0px 10px white;
         }
         .box-1 { background-color: #6b5a55; margin: 30px 15px;}
         .box-4 { background-color: #92a33c; margin: 30px 15px;}
@@ -43,7 +45,7 @@ body {
             font-size: 40px;
             .clockId {
                 font-family: digital-7;
-                font-size: 4rem;
+                font-size: 3.5rem;
                 font-weight: 100;
             }
         }
