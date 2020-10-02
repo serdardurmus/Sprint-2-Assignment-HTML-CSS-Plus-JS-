@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "digital-7";
+  src: url("./fonts/digital-7.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body section .box {
+  border-radius: 5px;
+  min-width: 200px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+body section .box:hover {
+  border-style: groove;
+}
+body section .box-1 {
+  background-color: #6b5a55;
+  margin: 30px 15px;
+}
+body section .box-4 {
+  background-color: #92a33c;
+  margin: 30px 15px;
+}
+body section .box-3 {
+  background-color: #3dbcc3;
+  margin: 30px 15px;
+}
+body section .box-2 {
+  background-color: #ef7caa;
+  margin: 30px 15px;
+}
+body section .box-5 {
+  background-color: #000000;
+  margin: 30px 15px;
+  font-size: 40px;
+}
+body section .box-5 .clockId {
+  font-family: digital-7;
+  font-size: 4rem;
+  font-weight: 100;
+}
+body section .box-8 {
+  background-color: #6b5a55;
+  margin: 30px 15px;
+}
+body section .box-7 {
+  background-color: #3dbcc3;
+  margin: 30px 15px;
+}
+body section .box-6 {
+  background-color: #f05a28;
+  margin: 30px 15px;
+}
+body section .box-9 {
+  background-color: #1d71bd;
+  margin: 30px 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
