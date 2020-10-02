@@ -25,7 +25,7 @@ body section {
 }
 body section .clockId {
   font-family: digital-7;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 100;
 }
 body section .clockId-2 {
@@ -35,8 +35,8 @@ body section .clockId-2 {
 }
 body section .box {
   border-radius: 10px;
-  min-width: 220px;
-  min-height: 220px;
+  min-width: 150px;
+  min-height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@ body section .box:hover {
 body section .box-1 {
   background-color: #6b5a55;
   margin: 30px 15px;
-  font-size: 100px;
+  font-size: 75px;
 }
 body section .box-4 {
   background-color: #92a33c;
@@ -78,7 +78,7 @@ body section .box-5 {
 body section .box-8 {
   background-color: #6b5a55;
   margin: 30px 15px;
-  font-size: 100px;
+  font-size: 75px;
 }
 body section .box-7 {
   background-color: #3dbcc3;
@@ -90,7 +90,7 @@ body section .box-7 span, body section .box-7 div {
 body section .box-6 {
   background-color: #f05a28;
   margin: 30px 15px;
-  font-size: 100px;
+  font-size: 75px;
 }
 body section .box-9 {
   background-color: #1d71bd;
@@ -98,6 +98,9 @@ body section .box-9 {
 }
 body section .box-9 span, body section .box-9 div {
   background-color: #1d71bd;
+}
+body section .box-foot {
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
